@@ -1,11 +1,12 @@
-package niit;
+package arraylist;
 
 public class Car {
 String model;
 String color;
 String name;
-Car(String ab,String bc,String cd)
+public Car(String ab,String bc,String cd)
 {
+	super();
 	this.model=ab;
 	this.color=bc;
 	this.name=cd;

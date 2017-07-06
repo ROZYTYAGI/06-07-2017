@@ -1,6 +1,7 @@
 package arraylist;
-import java.util.*;
-  class CarComparator implements Comparator<Car>
+
+import java.util.Comparator;
+class ColorComparator implements Comparator<Car>
 {
 
 	@Override
@@ -8,13 +9,8 @@ import java.util.*;
 		// TODO Auto-generated method stub
 		Car c1=(Car)o1;
 		Car c2=(Car)o2;
-		return o1.getName().compareTo(o2.name); 
+		return o1.getColor().compareTo(o2.color); 
 		
 	 
-	  
-
-}
-	
-	  
-
+	}
 }
