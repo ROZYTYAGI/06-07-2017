@@ -1,10 +1,11 @@
-package arraylist;
+package array;
 
 public class Car {
+
 String model;
 String color;
 String name;
-public Car(String ab,String bc,String cd)
+Car(String ab,String bc,String cd)
 {
 	super();
 	this.model=ab;
@@ -30,7 +31,10 @@ public void setName(String name) {
 	this.name = name;
 }
 
-	
+@Override
+public String toString() {
+	return "Car [model=" + model + ", color=" + color + ", name=" + name + "]";
+}	
 
 	
 }
